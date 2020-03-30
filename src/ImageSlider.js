@@ -9,7 +9,7 @@ class ImageSlider extends Component {
         currentSlideIndex: 0
         };
     render() { 
-          return ( <p>I am on slide<span> {this.state.currentSlideIndex} </span> </p> ) 
+          return ( <p>I am on slide<span> {this.state.currentSlideIndex}</span></p> ) 
     }
 }
  

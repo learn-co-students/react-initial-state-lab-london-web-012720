@@ -12,7 +12,7 @@ class Bomb extends Component {
     render() {
         const output = this.state.secondsLeft !== 0 ? 
         <p>
-        <span> {this.state.secondsLeft} </span> 
+        <span>{this.state.secondsLeft} </span> 
         seconds left before I go boom!
         </p>
         :
